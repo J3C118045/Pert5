@@ -1,0 +1,10 @@
+CRITICAL - 2020-10-10 23:41:46 --> Invalid file: program_studi_v.php
+#0 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('program_studi_v...')
+#1 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('program_studi_v', Array, true)
+#2 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\app\Controllers\Program_Studi.php(8): view('program_studi_v')
+#3 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#4 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#5 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\DATA D\\FOLDE...')
+#8 {main}

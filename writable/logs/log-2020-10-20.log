@@ -1,0 +1,10 @@
+CRITICAL - 2020-10-20 08:38:10 --> Unable to connect to the database.
+#0 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\app\Controllers\Program_Studi.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Program_Studi->index()
+#4 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#5 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert5\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\DATA D\\FOLDE...')
+#8 {main}
